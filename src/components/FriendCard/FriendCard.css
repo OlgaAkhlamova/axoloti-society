@@ -1,0 +1,61 @@
+.friend__card {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 13px 50px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friend__userpic {
+  width: 174px;
+  height: 174px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.friend__details {
+  width: calc(100% - 173px - 60px);
+}
+
+.friend__name {
+  font-size: 32px;
+  line-height: 42px;
+  margin: 10px 0 0;
+}
+
+.friend__location {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7B7B7B;
+  margin: 0;
+}
+
+.friend__quantity {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 13px 0 8px;
+}
+
+.friend__fav-quote {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .friend__card {
+    flex-direction: column;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .friend__details {
+    width: calc(100% - 60px);
+  }
+
+}
