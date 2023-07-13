@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Menu.css';
 
 function Menu() {
@@ -7,13 +7,13 @@ function Menu() {
     <nav className='menu'>
       <ul className='menu__list'>
         <li className='menu__list-item'>
-          <Link className="menu__link" to='/friends'>Друзья</Link>
+          <NavLink className={({isActive}) => `menu__link ${isActive ? "menu__link_active" : ""}`} to='/friends'>Друзья</NavLink>
         </li>
         <li className='menu__list-item'>
-          <Link className="menu__link" to='/news'>Новости</Link>
+          <NavLink className={({isActive}) => `menu__link ${isActive ? "menu__link_active" : ""}`} to='/news'>Новости</NavLink>
         </li>
         <li className='menu__list-item'>
-          <Link className="menu__link" to='/contacts'>Контакты</Link>
+          <NavLink className={({isActive}) => `menu__link ${isActive ? "menu__link_active" : ""}`} to='/contacts'>Контакты</NavLink>
         </li>
       </ul>
     </nav>

@@ -10,7 +10,7 @@ function PageNotFound () {
       <h3 className="contacts__title">
       Контакты
       </h3>
-      <img className="contacts__image" src={Hello} alt=""/>
+      <img className="contacts__image" src={Hello} alt="руки друзей тянутся друг к другу"/>
       <p className="contacts__text">
        Свяжитесь с нами - мы всё расскажем
       </p>
