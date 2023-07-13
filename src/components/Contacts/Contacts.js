@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './PageNotFound.css';
+import './Contacts.css';
 import Hello from '../../images/hello.jpg';
 
 function PageNotFound () {

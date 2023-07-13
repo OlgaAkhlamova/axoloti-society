@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './PageNotFound.css';
-import Bye from '../../images/404.svg';
+import Bye from '../../images/404.jpg';
 
 function PageNotFound () {
   return (
