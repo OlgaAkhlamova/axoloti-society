@@ -8,5 +8,5 @@
 
 ## Ссылка на проект
 
-https://olgaakhlamova.github.io/axoloti-society
+https://olgaakhlamova.github.io/axoloti-society/
 
